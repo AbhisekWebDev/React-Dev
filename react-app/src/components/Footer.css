@@ -1,0 +1,30 @@
+.footer {
+  background: linear-gradient(90deg, #998fdb, #2575fc); /* violet to blue */
+  color: #ffffff;
+  padding: 25px 50px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  margin-bottom: 50px;
+}
+
+.twinkle {
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  animation: twinkleColors 2s infinite alternate;
+}
+
+/* Keyframes for color animation */
+@keyframes twinkleColors {
+  0%   { color: #ff9a9e; }
+  25%  { color: #fad0c4; }
+  50%  { color: #fbc2eb; }
+  75%  { color: #a18cd1; }
+  100% { color: #84fab0; }
+}

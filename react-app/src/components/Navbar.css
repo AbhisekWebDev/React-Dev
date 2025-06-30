@@ -1,0 +1,26 @@
+.navbar {
+  background: linear-gradient(90deg, #2196f3, #21cbf3);
+  padding: 20px 40px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 15px;
+  border-radius: 6px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar a:hover {
+  background-color: #ffffff;
+  color: #2196f3;
+  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.5);
+}

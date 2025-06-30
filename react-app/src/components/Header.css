@@ -1,0 +1,13 @@
+.header {
+  background: linear-gradient(90deg, #6a11cb, #2575fc); /* violet to blue */
+  color: #ffffff;
+  padding: 25px 50px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  margin-bottom: 50px;
+}
